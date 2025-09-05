@@ -5,23 +5,18 @@ body {
 
 .header-background {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   background-color: #fcfbfa;
+  opacity: 0.8;
   height: 75px;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   display: flex;
-  justify-content: flex-start;
   gap: 40px;
-}
-
-nav li {
-  text-decoration: none;
 }
 
 .header-logo img {
@@ -29,6 +24,18 @@ nav li {
   height: auto;
 }
 
-header img {
-  background-color: aqua;
+body {
+  background-image: url("/images/0*PVPtTjkWLd2zYT46.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.cta {
+    background-color: blanchedalmond;
+    max-width: 500px;
+    border-radius: 16px;
+    padding-left: 30px;
+
 }
