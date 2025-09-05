@@ -1,11 +1,34 @@
-.navigation {
-  display: flex;
-  justify-content: flex-start;
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.links ul {
+.header-background {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fcfbfa;
+  height: 75px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: flex-start;
-  list-style-type: none;
   gap: 40px;
+}
+
+nav li {
+  text-decoration: none;
+}
+
+.header-logo img {
+  width: 180px;
+  height: auto;
+}
+
+header img {
+  background-color: aqua;
 }
