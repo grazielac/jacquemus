@@ -3,11 +3,12 @@ body {
   box-sizing: border-box;
 }
 
-.header-background {
+.nav-background {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
   background-color: #fcfbfa;
   opacity: 0.8;
   height: 75px;
@@ -22,20 +23,45 @@ nav ul {
 .header-logo img {
   width: 180px;
   height: auto;
+  margin-right: 650px;
 }
 
-body {
-  background-image: url("/images/0*PVPtTjkWLd2zYT46.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.header-background {
+  background-image: url("/images/model-walks-on-the-runway-during-lamour-jacquemus-spring-news-photo-1594977950.jpg");
+  background-size: cover;
   background-position: center center;
   min-height: 100vh;
+  position: relative;
 }
 
-.cta {
-    background-color: blanchedalmond;
-    max-width: 500px;
-    border-radius: 16px;
-    padding-left: 30px;
+.hero-cta {
+  background-color: blanchedalmond;
+  max-width: 250px;
+  border-radius: 20px;
+  padding: 20px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
 
+.button-label {
+  border-radius: 18px;
+  background-color: #d8a7b1;
+  padding: 10px;
+}
+
+.second-header {
+  background-image: url("/images/tumblr_2cb26b5d35eb994bd390f7588e41a02a_2165a775_1280.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.third-header {
+  background-image: url("/images/0*PVPtTjkWLd2zYT46.png");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  position: relative;
 }
