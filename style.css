@@ -78,22 +78,6 @@ a {
   background: #fbe7d4;
 }
 
-.image-two {
-  background-image: url("/images/model.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  position: relative;
-}
-
-.image-three {
-  background-image: url("/images/field.png");
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  position: relative;
-}
-
 footer {
   background-color: #d8a7b1;
   text-align: center;
@@ -123,8 +107,8 @@ footer {
   display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
-
 }
+
 .product-card {
   min-width: 340px;
   height: 450px;
@@ -132,8 +116,6 @@ footer {
   cursor: pointer;
   padding: 5px;
   text-align: center;
-  border: 1px solid. black;
-
 }
 
 .product-photo {
@@ -149,7 +131,6 @@ footer {
   margin: 12px;
   color: white;
   font-weight: 600;
-
 }
 
 .card-cta:hover {
