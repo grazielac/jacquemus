@@ -5,6 +5,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-around;
@@ -58,7 +62,6 @@ a {
   position: absolute;
   left: 50px;
   bottom: 90px;
-  opacity: 0.8;
 }
 
 .hero-cta {
@@ -66,6 +69,10 @@ a {
   background-color: #d8a7b1;
   padding: 10px;
   margin: 12px;
+}
+
+.hero-cta:hover {
+  background: #fbe7d4;
 }
 
 .image-two {
