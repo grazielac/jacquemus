@@ -89,3 +89,17 @@ footer {
   text-align: center;
   padding: 8px;
 }
+
+.top-button img {
+  max-width: 20px;
+  height: auto;
+  padding: 20px;
+  background-color: #fbe7d4;
+  opacity: 0.8;
+  border-radius: 18px;
+  position: fixed;
+  right: 50px;
+  bottom: 10%;
+  cursor: pointer;
+  z-index: 1000;
+}
