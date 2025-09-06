@@ -1,67 +1,91 @@
 body {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-background {
+.nav-bar {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  background-color: #fcfbfa;
+  background-color: #fbe7d4;
   opacity: 0.8;
   height: 75px;
+  padding: 0 20px;
 }
 
-nav ul {
+/*.nav-bar .logo {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  max-width: 70px;
+  height: auto;
+  object-fit: block;
+  box-sizing: inherit;
+} */
+
+.nav-bar img {
+  max-width: 100px;
+  height: auto;
+}
+
+ul {
   list-style-type: none;
   display: flex;
   gap: 40px;
 }
 
-.header-logo img {
-  width: 180px;
-  height: auto;
-  margin-right: 650px;
+a {
+  text-decoration: none;
 }
 
-.header-background {
-  background-image: url("/images/model-walks-on-the-runway-during-lamour-jacquemus-spring-news-photo-1594977950.jpg");
+.image-one {
+  background-image: url("/images/bed.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
   position: relative;
 }
 
-.hero-cta {
-  background-color: blanchedalmond;
+.hero {
+  text-align: center;
+  background-color: #fcfbfa;
   max-width: 250px;
   border-radius: 20px;
   padding: 20px;
   position: absolute;
   left: 50px;
-  bottom: 50px;
+  bottom: 90px;
+  opacity: 0.8;
 }
 
-.button-label {
+.hero-cta {
   border-radius: 18px;
   background-color: #d8a7b1;
   padding: 10px;
+  margin: 12px;
 }
 
-.second-header {
-  background-image: url("/images/tumblr_2cb26b5d35eb994bd390f7588e41a02a_2165a775_1280.jpg");
+.image-two {
+  background-image: url("/images/model.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   min-height: 100vh;
   position: relative;
 }
 
-.third-header {
-  background-image: url("/images/0*PVPtTjkWLd2zYT46.png");
+.image-three {
+  background-image: url("/images/field.png");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   min-height: 100vh;
   position: relative;
+}
+
+footer {
+  background-color: #d8a7b1;
+  text-align: center;
+  padding: 8px;
 }

@@ -8,46 +8,53 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <header id="section-header">
-      <div class="header">
-        <div class="nav-background">
-          <div class="header-logo">
-            <img src="./images/logo.png" alt="minimalist logo" />
-          </div>
-          <div class="main-links">
-            <nav>
-              <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#best-seller">Best Seller</a></li>
-                <li><a href="#shop">Shop</a></li>
-                <li><a href="#about">About</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
+    <header class="header">
+      <nav class="nav-bar">
+        <a href="/" class="logo">
+          <img src="images/logo.png" alt="minimalist logo" />
+        </a>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Best Seller</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
     </header>
-    <div class="slideshow"></div>
 
-    <div class="header-background">
-      <div class="hero-cta">
-        <h2 class="cta-title">Discover the World of Jacquemus</h2>
-        <div class="cta-text">
-          <p>
-            Be the first to see new projects, updates, and exclusive insights
-            from Jacquemus
-          </p>
-          <button class="cta-button">EXPLORE MORE</button>
+    <main>
+      <section id="home">
+        <div class="image-one">
+          <div class="hero">
+            <div class="hero-text">
+              <h1>Discover the World of Jacquemus</h1>
+              <p>Fashion with a touch of romance and modern elegance.</p>
+            </div>
+            <div class="hero-cta">
+              <a href="#shop" class="cta-button">Shop Now</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="second-header"></div>
+      <section id="best-seller">
+        <div class="image-two"></div>
+        <h2>Best Seller</h2>
+      </section>
 
-    <div class="third-header"></div>
+      <section id="shop">
+        <div class="image-three"></div>
+        <h2>Shop</h2>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+      </section>
+    </main>
 
     <footer>
-      <p>© 2025 JACQUEMUS</p>
+      <p>&copy; 2025 Jacquemus Project. All rights reserved.</p>
+      <nav><a href="#">Privacy Policy</a> | <a href="#">Contact</a></nav>
     </footer>
   </body>
 </html>
