@@ -49,7 +49,7 @@ a {
 }
 
 .image-one {
-  background-image: url("/images/bed.jpg");
+  background-image: url("images/bed.jpg");
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
