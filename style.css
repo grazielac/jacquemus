@@ -133,11 +133,6 @@ footer {
   font-weight: 600;
 }
 
-.card-cta:hover {
-  background-color: #e89ab5; /* darker pink on hover */
-  transform: scale(1.05);
-}
-
 .product-grid .hero-cta {
   margin-top: 0px;
 }
