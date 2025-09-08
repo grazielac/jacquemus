@@ -10,7 +10,7 @@ This project was created as part of my learning journey in web development.
 - Sections for hero, call-to-action, and product highlights
 - Easy-to-read structure for future improvements
 
-## Technologies Used
+## Language Used
 
 - HTML
 - CSS
@@ -39,7 +39,7 @@ Future Improvements
 • Add interactivity with JavaScript
 • Include more sections (About, Contact, advanced Footer, etc.)
 
-Contributing
+## Contributing
 This project is for personal learning, but feedback and suggestions are welcome.
 
 ## Reflection
